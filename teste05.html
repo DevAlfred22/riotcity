@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jump In!</title>
+  <style>
+    @keyframes jump {
+      0%, 50%, 100% { transform: translateY(0); }
+      25%, 75% { transform: translateY(-20px); }
+    }
+
+    h1 span {
+      font-size: 36px;
+      font-weight: bold;
+      display: inline-block;
+      animation: jump 1,5s infinite; /* Efeito de pulo durante 1 segundo, repetindo infinitamente */
+    }
+  </style>
+</head>
+<body>
+  <h1><span>J</span><span>u</span><span>m</span><span>p</span> In!</h1>
+</body>
+</html>

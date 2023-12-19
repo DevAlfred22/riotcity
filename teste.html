@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digitando...</title>
+  <style>
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 100%; }
+    }
+
+    h1 {
+      overflow: hidden;
+      border-right: 1px solid #000; /* Efeito de cursor piscando */
+      white-space: nowrap; /* Impede a quebra de linha */
+      margin: 0; /* Remove a margem padrão do navegador */
+      font-size: 24px; /* Ajuste o tamanho da fonte conforme necessário */
+      animation: typing 2s steps(20, end), blink-caret 0.75s step-end infinite;
+    }
+
+    @keyframes blink-caret {
+      from, to { border-color: transparent; }
+      50% { border-color: #000; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Seu Título Aqui</h1>
+</body>
+</html>

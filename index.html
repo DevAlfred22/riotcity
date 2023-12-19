@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="riot.ico" type="image/x-icon">
+    <title>Riot City</title>
+
+    <style>
+
+        @keyframes colorChange {
+            0% { color: #FF4500; }
+            25% { color: #00FF00; }
+            50% { color: #1E90FF; }
+            75% { color: #FFD700; }
+            100% { color: #FF4500; }
+          }
+      
+          @keyframes typing {
+            from { width: 0; }
+            to { width: 100%; }
+          }
+
+          @keyframes jump {
+            0%, 50%, 100% { transform: translateY(0); }
+            25%, 75% { transform: translateY(-20px); }
+          }
+      
+          h2 {
+            font-size: 28px;
+            font-weight: bold;
+            animation: jump 1s infinite; /* Efeito de pulo durante 1 segundo, repetindo infinitamente */
+
+            text-align: center;
+            color: white;
+            
+            
+          }
+      
+      
+          h1 {
+            font-size: 36px;
+            font-weight: bold;
+            overflow: hidden;
+            white-space: nowrap;
+            margin: 0;
+            animation: colorChange 4s infinite, typing 3s steps(20, end);
+          }
+
+
+        body{
+            background-image: url(background1080x.gif);
+        }
+       
+
+      div{
+        margin: 10px;
+      }
+
+      #lol{
+
+        display:inline-block ;
+        background-image: url(yasuo\ fodao.jpg);
+        width: 150px;
+        height: 150px;
+        border: 4px solid gold;
+        
+    }
+
+
+      #wil{
+        display:inline-block ;
+        background-image: url(jinx\ \ wild.jpg);
+        width: 150px;
+        height: 150px;
+        border: 4px solid gold;
+      
+      }
+
+      #val{
+        display:inline-block ;
+        background-image: url(phoenix\ \ valorant.jpg);
+        width: 150px;
+        height: 150px;
+        border: 4px solid gold;
+   
+       
+    }
+      
+ 
+
+      main{
+        position: relative;
+        top: 80px;
+        left: 4%;
+        width: 50%;
+        height: 50%;
+        background-color: rgba(128, 128, 128, 0);
+        margin: auto;
+      }
+
+      button{
+
+        width: 150px;
+        height: 150px;
+        background-color: rgba(172, 255, 47, 0);
+       
+      }
+      a{
+        text-decoration: none;
+        padding: 50px;
+        color: rgba(255, 0, 0, 0);
+      }
+
+ 
+
+
+
+
+     
+    </style>
+</head>
+<body>
+
+    <h1>Hello Gamers!</h1>
+    <h2>Qual o seu desejo?</h2>
+
+<main>
+
+    <div id="lol"> <button> <a href="pagina1.html"><abbr title="League of Legends">LOL</abbr></a> </button> </div>
+
+     
+
+    <div id="wil"><button> <a href="pagina2.html"><abbr title="Wild Rift">Wild    </abbr></a> </button> </div>
+         
+    
+       
+     <div id="val"> <button> <a href="pagina3.html"><abbr title="Valorant">Val  </abbr></a> </button></div>
+          
+     
+</main>
+
+
+    
+</body>
+</html>
